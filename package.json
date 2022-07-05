@@ -1,0 +1,37 @@
+{
+  "name": "HyperYaderiClient",
+  "version": "1.0.0",
+  "description": "Клиент для интернет-радио HyperYaderi с Discord RPC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "client",
+    "discord",
+    "rpc",
+    "rich",
+    "presence",
+    "hyperpop",
+    "radio",
+    "hyperyaderi"
+  ],
+  "author": "clownl3ss",
+  "license": "MIT",
+  "repository": "github:hyperyaderi/electron-client",
+  "devDependencies": {
+    "electron": "^7.2.4",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.1.0"
+  },
+  "build": {
+    "appId": "HyperYaderiClient",
+    "mac": {
+      "category": "ru.hyperyaderi.electron-client"
+    }
+  }
+}
